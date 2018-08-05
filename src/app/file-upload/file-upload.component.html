@@ -1,0 +1,11 @@
+<label for="file">File:</label>
+<input type="file" (change)="upload($event)" accept=".png,.jpg" />
+
+
+<!-- <progress max="100" [value]="(uploadProgress | async)"></progress>
+<div class="result" *ngIf="uploadURL | async; let uploadSrc">
+  <a [href]="uploadSrc">You just uploaded this file!</a>
+</div> -->
+
+
+<button (click)= "onSave()" >Save</button>
